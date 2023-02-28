@@ -1,12 +1,12 @@
 import React from 'react'
 
-const RunInfo = () => {
+const runInfo = () => {
   return (
     <div>
-      <h2>My Journey to Running a 10K</h2>
-      <h3>When: May 29th</h3>
+      
     </div>
   )
 }
 
-export default RunInfo ;
+export default runInfo
+

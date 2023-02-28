@@ -28,7 +28,7 @@ function App() {
             </Route>
           </Routes>
       </Router>
-    <h2>Hello Kimberly!</h2>
+
 
     </div>
   );
