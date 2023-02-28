@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Topnav from './components/navbar/Topnav';
 import React from 'react';
 import Home from './components/pages/home';
-import Aboutme from './components/pages/aboutme';
+import RunInfo from './components/pages/runInfo';
 import Projects from './components/pages/projects';
 import Socialmedia from './components/pages/socialmedia';
 import Contact from './components/pages/contact';
@@ -18,7 +18,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home/>} > 
             </Route>
-            <Route path="/aboutme" element={<Aboutme/>} > 
+            <Route path="/runinfo" element={<RunInfo/>} > 
             </Route>
             <Route path="/projects" element={<Projects/>} > 
             </Route>

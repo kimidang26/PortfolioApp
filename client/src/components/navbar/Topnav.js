@@ -17,8 +17,8 @@ const Topnav = () => {
         <Link to="/" className='home'>
             <li>Home</li>
         </Link>
-        <Link to="/aboutme" className='aboutme'>
-            <li>About Me</li>
+        <Link to="/runinfo" className='aboutme'>
+            <li>Training</li>
         </Link>
         <Link to="/projects" className='projects'>
             <li>Projects</li>
