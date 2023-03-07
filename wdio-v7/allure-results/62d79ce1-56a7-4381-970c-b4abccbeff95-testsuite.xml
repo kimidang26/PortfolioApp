@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673289052409' stop='1673289052642'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1673289052410' status='broken' stop='1673289052642'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps>
+                <step start='1673289052413' status='passed' stop='1673289052641'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c4146089-e2a4-48a9-abed-cfa1edc01ed1-attachment.png' type='image/png' size='18370'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Invalid URL</message>
+                <stack-trace>TypeError [ERR_INVALID_URL]: Invalid URL
+                    at new NodeError (node:internal/errors:393:5)
+                    at URL.onParseError (node:internal/url:564:9)
+                    at new URL (node:internal/url:644:5)
+                    at new URL (node:internal/url:641:22)
+                    at async Context.&lt;anonymous> (/Users/kimberlydang/Desktop/2023 Projects/Portfolio/PortfolioApp/wdio-v7/test/specs/example.e2e.js:6:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673331438720' stop='1673331438977'>
+    <name>Dynamic Loading Page</name>
+    <title>Dynamic Loading Page</title>
+    <test-cases>
+        <test-case start='1673331438721' status='failed' stop='1673331438976'>
+            <name>wait for the hidden element to show</name>
+            <title>wait for the hidden element to show</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps>
+                <step start='1673331438724' status='failed' stop='1673331438976'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='262515e1-fb96-42b9-a92e-070c630bcccc-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps>
+                        <step start='1673331438735' status='failed' stop='1673331438976'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='dde440e2-3223-4b1d-b68c-00e252461065-attachment.json' type='application/json' size='54'/>
+                            </attachments>
+                            <steps>
+                                <step start='1673331438753' status='failed' stop='1673331438976'>
+                                    <name>GET /session/:sessionId/screenshot</name>
+                                    <title>GET /session/:sessionId/screenshot</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1673331438754' status='passed' stop='1673331438976'>
+                                            <name>POST /session/:sessionId/url</name>
+                                            <title>POST /session/:sessionId/url</title>
+                                            <attachments>
+                                                <attachment title='Request' source='b60115b2-cacd-4622-8026-fd7afb8d13cb-attachment.json' type='application/json' size='67'/>
+                                                <attachment title='Screenshot' source='19671072-b668-46aa-a00c-5f49fd993611-attachment.png' type='image/png' size='18370'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Unexpected return from a matcher function.
+                Matcher functions should return an object in the following format:
+                  {message?: string | function, pass: boolean}
+                '{"actual": {}, "expected": "Hello World!", "message": [Function anonymous], "name": "toEqual", "pass": {}}' was returned</message>
+                <stack-trace>Error: Unexpected return from a matcher function.
+                Matcher functions should return an object in the following format:
+                  {message?: string | function, pass: boolean}
+                '{"actual": {}, "expected": "Hello World!", "message": [Function anonymous], "name": "toEqual", "pass": {}}' was returned
+                    at Context.&lt;anonymous> (/Users/kimberlydang/Desktop/2023 Projects/Portfolio/PortfolioApp/wdio-v7/test/specs/dynamic-loading.e2e.js:20:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
